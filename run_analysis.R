@@ -109,3 +109,6 @@ tidy <- merged_data_mean_std %>%
 
 # print the end result
 print(tidy)
+
+# write the tidy data into a file
+write.table(tidy, file = "jporwal05_tidy.txt", row.names = FALSE)
